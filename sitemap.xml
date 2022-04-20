@@ -2,42 +2,77 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/</loc>
-         <lastmod>2022-03-31</lastmod>
+         <lastmod>2022-04-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/4.1/</loc>
-         <lastmod>2022-03-31</lastmod>
+         <lastmod>2022-04-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/4.1/integreatly/</loc>
-         <lastmod>2022-03-31</lastmod>
+         <lastmod>2022-04-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/4.1/integreatly/v1alpha1/</loc>
-         <lastmod>2022-03-31</lastmod>
+         <lastmod>2022-04-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/4.1/integreatly/v1alpha1/grafana/</loc>
-         <lastmod>2022-03-31</lastmod>
+         <lastmod>2022-04-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/4.1/integreatly/v1alpha1/grafanaDashboard/</loc>
-         <lastmod>2022-03-31</lastmod>
+         <lastmod>2022-04-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/4.1/integreatly/v1alpha1/grafanaDataSource/</loc>
-         <lastmod>2022-03-31</lastmod>
+         <lastmod>2022-04-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/4.1/integreatly/v1alpha1/grafanaNotificationChannel/</loc>
-         <lastmod>2022-03-31</lastmod>
+         <lastmod>2022-04-20</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/4.2/</loc>
+         <lastmod>2022-04-20</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/4.2/integreatly/</loc>
+         <lastmod>2022-04-20</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/4.2/integreatly/v1alpha1/</loc>
+         <lastmod>2022-04-20</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/4.2/integreatly/v1alpha1/grafana/</loc>
+         <lastmod>2022-04-20</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/4.2/integreatly/v1alpha1/grafanaDashboard/</loc>
+         <lastmod>2022-04-20</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/4.2/integreatly/v1alpha1/grafanaDataSource/</loc>
+         <lastmod>2022-04-20</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/4.2/integreatly/v1alpha1/grafanaNotificationChannel/</loc>
+         <lastmod>2022-04-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>

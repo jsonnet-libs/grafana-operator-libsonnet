@@ -22,8 +22,6 @@ permalink: /4.3/integreatly/v1alpha1/grafanaDataSource/
   * [`fn withGeneration(generation)`](#fn-metadatawithgeneration)
   * [`fn withLabels(labels)`](#fn-metadatawithlabels)
   * [`fn withLabelsMixin(labels)`](#fn-metadatawithlabelsmixin)
-  * [`fn withManagedFields(managedFields)`](#fn-metadatawithmanagedfields)
-  * [`fn withManagedFieldsMixin(managedFields)`](#fn-metadatawithmanagedfieldsmixin)
   * [`fn withName(name)`](#fn-metadatawithname)
   * [`fn withNamespace(namespace)`](#fn-metadatawithnamespace)
   * [`fn withOwnerReferences(ownerReferences)`](#fn-metadatawithownerreferences)
@@ -35,6 +33,158 @@ permalink: /4.3/integreatly/v1alpha1/grafanaDataSource/
   * [`fn withDatasources(datasources)`](#fn-specwithdatasources)
   * [`fn withDatasourcesMixin(datasources)`](#fn-specwithdatasourcesmixin)
   * [`fn withName(name)`](#fn-specwithname)
+  * [`obj spec.datasources`](#obj-specdatasources)
+    * [`fn withAccess(access)`](#fn-specdatasourceswithaccess)
+    * [`fn withBasicAuth(basicAuth)`](#fn-specdatasourceswithbasicauth)
+    * [`fn withBasicAuthPassword(basicAuthPassword)`](#fn-specdatasourceswithbasicauthpassword)
+    * [`fn withBasicAuthUser(basicAuthUser)`](#fn-specdatasourceswithbasicauthuser)
+    * [`fn withDatabase(database)`](#fn-specdatasourceswithdatabase)
+    * [`fn withEditable(editable)`](#fn-specdatasourceswitheditable)
+    * [`fn withIsDefault(isDefault)`](#fn-specdatasourceswithisdefault)
+    * [`fn withName(name)`](#fn-specdatasourceswithname)
+    * [`fn withOrgId(orgId)`](#fn-specdatasourceswithorgid)
+    * [`fn withPassword(password)`](#fn-specdatasourceswithpassword)
+    * [`fn withType(type)`](#fn-specdatasourceswithtype)
+    * [`fn withUid(uid)`](#fn-specdatasourceswithuid)
+    * [`fn withUrl(url)`](#fn-specdatasourceswithurl)
+    * [`fn withUser(user)`](#fn-specdatasourceswithuser)
+    * [`fn withVersion(version)`](#fn-specdatasourceswithversion)
+    * [`fn withWithCredentials(withCredentials)`](#fn-specdatasourceswithwithcredentials)
+    * [`obj spec.datasources.jsonData`](#obj-specdatasourcesjsondata)
+      * [`fn withAddCorsHeader(addCorsHeader)`](#fn-specdatasourcesjsondatawithaddcorsheader)
+      * [`fn withAlertmanagerUid(alertmanagerUid)`](#fn-specdatasourcesjsondatawithalertmanageruid)
+      * [`fn withAllowInfraExplore(allowInfraExplore)`](#fn-specdatasourcesjsondatawithallowinfraexplore)
+      * [`fn withApiToken(apiToken)`](#fn-specdatasourcesjsondatawithapitoken)
+      * [`fn withAppInsightsAppId(appInsightsAppId)`](#fn-specdatasourcesjsondatawithappinsightsappid)
+      * [`fn withAssumeRoleArn(assumeRoleArn)`](#fn-specdatasourcesjsondatawithassumerolearn)
+      * [`fn withAuthType(authType)`](#fn-specdatasourcesjsondatawithauthtype)
+      * [`fn withAuthenticationType(authenticationType)`](#fn-specdatasourcesjsondatawithauthenticationtype)
+      * [`fn withAzureLogAnalyticsSameAs(azureLogAnalyticsSameAs)`](#fn-specdatasourcesjsondatawithazureloganalyticssameas)
+      * [`fn withClientEmail(clientEmail)`](#fn-specdatasourcesjsondatawithclientemail)
+      * [`fn withClientId(clientId)`](#fn-specdatasourcesjsondatawithclientid)
+      * [`fn withCloudName(cloudName)`](#fn-specdatasourcesjsondatawithcloudname)
+      * [`fn withClusterUrl(clusterUrl)`](#fn-specdatasourcesjsondatawithclusterurl)
+      * [`fn withConnMaxLifetime(connMaxLifetime)`](#fn-specdatasourcesjsondatawithconnmaxlifetime)
+      * [`fn withCustomMetricsNamespaces(customMetricsNamespaces)`](#fn-specdatasourcesjsondatawithcustommetricsnamespaces)
+      * [`fn withCustomQueryParameters(customQueryParameters)`](#fn-specdatasourcesjsondatawithcustomqueryparameters)
+      * [`fn withDefaultBucket(defaultBucket)`](#fn-specdatasourcesjsondatawithdefaultbucket)
+      * [`fn withDefaultDatabase(defaultDatabase)`](#fn-specdatasourcesjsondatawithdefaultdatabase)
+      * [`fn withDefaultProject(defaultProject)`](#fn-specdatasourcesjsondatawithdefaultproject)
+      * [`fn withDefaultRegion(defaultRegion)`](#fn-specdatasourcesjsondatawithdefaultregion)
+      * [`fn withDerivedFields(derivedFields)`](#fn-specdatasourcesjsondatawithderivedfields)
+      * [`fn withDerivedFieldsMixin(derivedFields)`](#fn-specdatasourcesjsondatawithderivedfieldsmixin)
+      * [`fn withEncrypt(encrypt)`](#fn-specdatasourcesjsondatawithencrypt)
+      * [`fn withEsVersion(esVersion)`](#fn-specdatasourcesjsondatawithesversion)
+      * [`fn withExemplarTraceIdDestinations(exemplarTraceIdDestinations)`](#fn-specdatasourcesjsondatawithexemplartraceiddestinations)
+      * [`fn withExemplarTraceIdDestinationsMixin(exemplarTraceIdDestinations)`](#fn-specdatasourcesjsondatawithexemplartraceiddestinationsmixin)
+      * [`fn withGithubUrl(githubUrl)`](#fn-specdatasourcesjsondatawithgithuburl)
+      * [`fn withGraphiteVersion(graphiteVersion)`](#fn-specdatasourcesjsondatawithgraphiteversion)
+      * [`fn withHttpHeaderName1(httpHeaderName1)`](#fn-specdatasourcesjsondatawithhttpheadername1)
+      * [`fn withHttpHeaderName2(httpHeaderName2)`](#fn-specdatasourcesjsondatawithhttpheadername2)
+      * [`fn withHttpHeaderName3(httpHeaderName3)`](#fn-specdatasourcesjsondatawithhttpheadername3)
+      * [`fn withHttpHeaderName4(httpHeaderName4)`](#fn-specdatasourcesjsondatawithhttpheadername4)
+      * [`fn withHttpHeaderName5(httpHeaderName5)`](#fn-specdatasourcesjsondatawithhttpheadername5)
+      * [`fn withHttpHeaderName6(httpHeaderName6)`](#fn-specdatasourcesjsondatawithhttpheadername6)
+      * [`fn withHttpHeaderName7(httpHeaderName7)`](#fn-specdatasourcesjsondatawithhttpheadername7)
+      * [`fn withHttpHeaderName8(httpHeaderName8)`](#fn-specdatasourcesjsondatawithhttpheadername8)
+      * [`fn withHttpHeaderName9(httpHeaderName9)`](#fn-specdatasourcesjsondatawithhttpheadername9)
+      * [`fn withHttpMethod(httpMethod)`](#fn-specdatasourcesjsondatawithhttpmethod)
+      * [`fn withHttpMode(httpMode)`](#fn-specdatasourcesjsondatawithhttpmode)
+      * [`fn withImplementation(implementation)`](#fn-specdatasourcesjsondatawithimplementation)
+      * [`fn withInterval(interval)`](#fn-specdatasourcesjsondatawithinterval)
+      * [`fn withLogAnalyticsClientId(logAnalyticsClientId)`](#fn-specdatasourcesjsondatawithloganalyticsclientid)
+      * [`fn withLogAnalyticsDefaultWorkspace(logAnalyticsDefaultWorkspace)`](#fn-specdatasourcesjsondatawithloganalyticsdefaultworkspace)
+      * [`fn withLogAnalyticsSubscriptionId(logAnalyticsSubscriptionId)`](#fn-specdatasourcesjsondatawithloganalyticssubscriptionid)
+      * [`fn withLogAnalyticsTenantId(logAnalyticsTenantId)`](#fn-specdatasourcesjsondatawithloganalyticstenantid)
+      * [`fn withLogLevelField(logLevelField)`](#fn-specdatasourcesjsondatawithloglevelfield)
+      * [`fn withLogMessageField(logMessageField)`](#fn-specdatasourcesjsondatawithlogmessagefield)
+      * [`fn withManageAlerts(manageAlerts)`](#fn-specdatasourcesjsondatawithmanagealerts)
+      * [`fn withMaxIdleConns(maxIdleConns)`](#fn-specdatasourcesjsondatawithmaxidleconns)
+      * [`fn withMaxLines(maxLines)`](#fn-specdatasourcesjsondatawithmaxlines)
+      * [`fn withMaxOpenConns(maxOpenConns)`](#fn-specdatasourcesjsondatawithmaxopenconns)
+      * [`fn withOauthPassThru(oauthPassThru)`](#fn-specdatasourcesjsondatawithoauthpassthru)
+      * [`fn withOrganization(organization)`](#fn-specdatasourcesjsondatawithorganization)
+      * [`fn withPort(port)`](#fn-specdatasourcesjsondatawithport)
+      * [`fn withPostgresVersion(postgresVersion)`](#fn-specdatasourcesjsondatawithpostgresversion)
+      * [`fn withServer(server)`](#fn-specdatasourcesjsondatawithserver)
+      * [`fn withShowOffline(showOffline)`](#fn-specdatasourcesjsondatawithshowoffline)
+      * [`fn withSigV4AssumeRoleArn(sigV4AssumeRoleArn)`](#fn-specdatasourcesjsondatawithsigv4assumerolearn)
+      * [`fn withSigV4Auth(sigV4Auth)`](#fn-specdatasourcesjsondatawithsigv4auth)
+      * [`fn withSigV4AuthType(sigV4AuthType)`](#fn-specdatasourcesjsondatawithsigv4authtype)
+      * [`fn withSigV4ExternalId(sigV4ExternalId)`](#fn-specdatasourcesjsondatawithsigv4externalid)
+      * [`fn withSigV4Profile(sigV4Profile)`](#fn-specdatasourcesjsondatawithsigv4profile)
+      * [`fn withSigV4Region(sigV4Region)`](#fn-specdatasourcesjsondatawithsigv4region)
+      * [`fn withSslmode(sslmode)`](#fn-specdatasourcesjsondatawithsslmode)
+      * [`fn withSubscriptionId(subscriptionId)`](#fn-specdatasourcesjsondatawithsubscriptionid)
+      * [`fn withTenantId(tenantId)`](#fn-specdatasourcesjsondatawithtenantid)
+      * [`fn withTimeField(timeField)`](#fn-specdatasourcesjsondatawithtimefield)
+      * [`fn withTimeInterval(timeInterval)`](#fn-specdatasourcesjsondatawithtimeinterval)
+      * [`fn withTimescaledb(timescaledb)`](#fn-specdatasourcesjsondatawithtimescaledb)
+      * [`fn withTimezone(timezone)`](#fn-specdatasourcesjsondatawithtimezone)
+      * [`fn withTlsAuth(tlsAuth)`](#fn-specdatasourcesjsondatawithtlsauth)
+      * [`fn withTlsAuthWithCACert(tlsAuthWithCACert)`](#fn-specdatasourcesjsondatawithtlsauthwithcacert)
+      * [`fn withTlsSkipVerify(tlsSkipVerify)`](#fn-specdatasourcesjsondatawithtlsskipverify)
+      * [`fn withTokenUri(tokenUri)`](#fn-specdatasourcesjsondatawithtokenuri)
+      * [`fn withTsdbResolution(tsdbResolution)`](#fn-specdatasourcesjsondatawithtsdbresolution)
+      * [`fn withTsdbVersion(tsdbVersion)`](#fn-specdatasourcesjsondatawithtsdbversion)
+      * [`fn withUrl(url)`](#fn-specdatasourcesjsondatawithurl)
+      * [`fn withUsePOST(usePOST)`](#fn-specdatasourcesjsondatawithusepost)
+      * [`fn withUseProxy(useProxy)`](#fn-specdatasourcesjsondatawithuseproxy)
+      * [`fn withUseYandexCloudAuthorization(useYandexCloudAuthorization)`](#fn-specdatasourcesjsondatawithuseyandexcloudauthorization)
+      * [`fn withUsername(username)`](#fn-specdatasourcesjsondatawithusername)
+      * [`fn withVersion(version)`](#fn-specdatasourcesjsondatawithversion)
+      * [`fn withXHeaderKey(xHeaderKey)`](#fn-specdatasourcesjsondatawithxheaderkey)
+      * [`fn withXHeaderUser(xHeaderUser)`](#fn-specdatasourcesjsondatawithxheaderuser)
+      * [`obj spec.datasources.jsonData.derivedFields`](#obj-specdatasourcesjsondataderivedfields)
+        * [`fn withDatasourceUid(datasourceUid)`](#fn-specdatasourcesjsondataderivedfieldswithdatasourceuid)
+        * [`fn withMatcherRegex(matcherRegex)`](#fn-specdatasourcesjsondataderivedfieldswithmatcherregex)
+        * [`fn withName(name)`](#fn-specdatasourcesjsondataderivedfieldswithname)
+        * [`fn withUrl(url)`](#fn-specdatasourcesjsondataderivedfieldswithurl)
+      * [`obj spec.datasources.jsonData.exemplarTraceIdDestinations`](#obj-specdatasourcesjsondataexemplartraceiddestinations)
+        * [`fn withDatasourceUid(datasourceUid)`](#fn-specdatasourcesjsondataexemplartraceiddestinationswithdatasourceuid)
+        * [`fn withName(name)`](#fn-specdatasourcesjsondataexemplartraceiddestinationswithname)
+        * [`fn withUrl(url)`](#fn-specdatasourcesjsondataexemplartraceiddestinationswithurl)
+        * [`fn withUrlDisplayLabel(urlDisplayLabel)`](#fn-specdatasourcesjsondataexemplartraceiddestinationswithurldisplaylabel)
+      * [`obj spec.datasources.jsonData.nodeGraph`](#obj-specdatasourcesjsondatanodegraph)
+        * [`fn withEnabled(enabled)`](#fn-specdatasourcesjsondatanodegraphwithenabled)
+      * [`obj spec.datasources.jsonData.search`](#obj-specdatasourcesjsondatasearch)
+        * [`fn withHide(hide)`](#fn-specdatasourcesjsondatasearchwithhide)
+      * [`obj spec.datasources.jsonData.serviceMap`](#obj-specdatasourcesjsondataservicemap)
+        * [`fn withDatasourceUid(datasourceUid)`](#fn-specdatasourcesjsondataservicemapwithdatasourceuid)
+      * [`obj spec.datasources.jsonData.tracesToLogs`](#obj-specdatasourcesjsondatatracestologs)
+        * [`fn withDatasourceUid(datasourceUid)`](#fn-specdatasourcesjsondatatracestologswithdatasourceuid)
+        * [`fn withFilterBySpanID(filterBySpanID)`](#fn-specdatasourcesjsondatatracestologswithfilterbyspanid)
+        * [`fn withFilterByTraceID(filterByTraceID)`](#fn-specdatasourcesjsondatatracestologswithfilterbytraceid)
+        * [`fn withLokiSearch(lokiSearch)`](#fn-specdatasourcesjsondatatracestologswithlokisearch)
+        * [`fn withSpanEndTimeShift(spanEndTimeShift)`](#fn-specdatasourcesjsondatatracestologswithspanendtimeshift)
+        * [`fn withSpanStartTimeShift(spanStartTimeShift)`](#fn-specdatasourcesjsondatatracestologswithspanstarttimeshift)
+        * [`fn withTags(tags)`](#fn-specdatasourcesjsondatatracestologswithtags)
+        * [`fn withTagsMixin(tags)`](#fn-specdatasourcesjsondatatracestologswithtagsmixin)
+    * [`obj spec.datasources.secureJsonData`](#obj-specdatasourcessecurejsondata)
+      * [`fn withAccessKey(accessKey)`](#fn-specdatasourcessecurejsondatawithaccesskey)
+      * [`fn withAccessToken(accessToken)`](#fn-specdatasourcessecurejsondatawithaccesstoken)
+      * [`fn withAppInsightsApiKey(appInsightsApiKey)`](#fn-specdatasourcessecurejsondatawithappinsightsapikey)
+      * [`fn withBasicAuthPassword(basicAuthPassword)`](#fn-specdatasourcessecurejsondatawithbasicauthpassword)
+      * [`fn withClientSecret(clientSecret)`](#fn-specdatasourcessecurejsondatawithclientsecret)
+      * [`fn withHttpHeaderValue1(httpHeaderValue1)`](#fn-specdatasourcessecurejsondatawithhttpheadervalue1)
+      * [`fn withHttpHeaderValue2(httpHeaderValue2)`](#fn-specdatasourcessecurejsondatawithhttpheadervalue2)
+      * [`fn withHttpHeaderValue3(httpHeaderValue3)`](#fn-specdatasourcessecurejsondatawithhttpheadervalue3)
+      * [`fn withHttpHeaderValue4(httpHeaderValue4)`](#fn-specdatasourcessecurejsondatawithhttpheadervalue4)
+      * [`fn withHttpHeaderValue5(httpHeaderValue5)`](#fn-specdatasourcessecurejsondatawithhttpheadervalue5)
+      * [`fn withHttpHeaderValue6(httpHeaderValue6)`](#fn-specdatasourcessecurejsondatawithhttpheadervalue6)
+      * [`fn withHttpHeaderValue7(httpHeaderValue7)`](#fn-specdatasourcessecurejsondatawithhttpheadervalue7)
+      * [`fn withHttpHeaderValue8(httpHeaderValue8)`](#fn-specdatasourcessecurejsondatawithhttpheadervalue8)
+      * [`fn withHttpHeaderValue9(httpHeaderValue9)`](#fn-specdatasourcessecurejsondatawithhttpheadervalue9)
+      * [`fn withLogAnalyticsClientSecret(logAnalyticsClientSecret)`](#fn-specdatasourcessecurejsondatawithloganalyticsclientsecret)
+      * [`fn withPassword(password)`](#fn-specdatasourcessecurejsondatawithpassword)
+      * [`fn withPrivateKey(privateKey)`](#fn-specdatasourcessecurejsondatawithprivatekey)
+      * [`fn withSecretKey(secretKey)`](#fn-specdatasourcessecurejsondatawithsecretkey)
+      * [`fn withSigV4AccessKey(sigV4AccessKey)`](#fn-specdatasourcessecurejsondatawithsigv4accesskey)
+      * [`fn withSigV4SecretKey(sigV4SecretKey)`](#fn-specdatasourcessecurejsondatawithsigv4secretkey)
+      * [`fn withTlsCACert(tlsCACert)`](#fn-specdatasourcessecurejsondatawithtlscacert)
+      * [`fn withTlsClientCert(tlsClientCert)`](#fn-specdatasourcessecurejsondatawithtlsclientcert)
+      * [`fn withTlsClientKey(tlsClientKey)`](#fn-specdatasourcessecurejsondatawithtlsclientkey)
+      * [`fn withToken(token)`](#fn-specdatasourcessecurejsondatawithtoken)
 
 ## Fields
 
@@ -152,24 +302,6 @@ withLabelsMixin(labels)
 
 **Note:** This function appends passed data to existing values
 
-### fn metadata.withManagedFields
-
-```ts
-withManagedFields(managedFields)
-```
-
-"ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn't need to set or understand this field. A workflow can be the user's name, a controller's name, or the name of a specific apply path like \"ci-cd\". The set of fields is always in the version that the workflow used when modifying the object."
-
-### fn metadata.withManagedFieldsMixin
-
-```ts
-withManagedFieldsMixin(managedFields)
-```
-
-"ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn't need to set or understand this field. A workflow can be the user's name, a controller's name, or the name of a specific apply path like \"ci-cd\". The set of fields is always in the version that the workflow used when modifying the object."
-
-**Note:** This function appends passed data to existing values
-
 ### fn metadata.withName
 
 ```ts
@@ -256,3 +388,1190 @@ withDatasourcesMixin(datasources)
 withName(name)
 ```
 
+
+
+## obj spec.datasources
+
+
+
+### fn spec.datasources.withAccess
+
+```ts
+withAccess(access)
+```
+
+
+
+### fn spec.datasources.withBasicAuth
+
+```ts
+withBasicAuth(basicAuth)
+```
+
+
+
+### fn spec.datasources.withBasicAuthPassword
+
+```ts
+withBasicAuthPassword(basicAuthPassword)
+```
+
+
+
+### fn spec.datasources.withBasicAuthUser
+
+```ts
+withBasicAuthUser(basicAuthUser)
+```
+
+
+
+### fn spec.datasources.withDatabase
+
+```ts
+withDatabase(database)
+```
+
+
+
+### fn spec.datasources.withEditable
+
+```ts
+withEditable(editable)
+```
+
+
+
+### fn spec.datasources.withIsDefault
+
+```ts
+withIsDefault(isDefault)
+```
+
+
+
+### fn spec.datasources.withName
+
+```ts
+withName(name)
+```
+
+
+
+### fn spec.datasources.withOrgId
+
+```ts
+withOrgId(orgId)
+```
+
+
+
+### fn spec.datasources.withPassword
+
+```ts
+withPassword(password)
+```
+
+
+
+### fn spec.datasources.withType
+
+```ts
+withType(type)
+```
+
+
+
+### fn spec.datasources.withUid
+
+```ts
+withUid(uid)
+```
+
+
+
+### fn spec.datasources.withUrl
+
+```ts
+withUrl(url)
+```
+
+
+
+### fn spec.datasources.withUser
+
+```ts
+withUser(user)
+```
+
+
+
+### fn spec.datasources.withVersion
+
+```ts
+withVersion(version)
+```
+
+
+
+### fn spec.datasources.withWithCredentials
+
+```ts
+withWithCredentials(withCredentials)
+```
+
+
+
+## obj spec.datasources.jsonData
+
+"GrafanaDataSourceJsonData contains the most common json options See https://grafana.com/docs/administration/provisioning/#datasources"
+
+### fn spec.datasources.jsonData.withAddCorsHeader
+
+```ts
+withAddCorsHeader(addCorsHeader)
+```
+
+"Useful fields for clickhouse datasource See https://github.com/Vertamedia/clickhouse-grafana/tree/master/dist/README.md#configure-the-datasource-with-provisioning See https://github.com/Vertamedia/clickhouse-grafana/tree/master/src/datasource.ts#L44"
+
+### fn spec.datasources.jsonData.withAlertmanagerUid
+
+```ts
+withAlertmanagerUid(alertmanagerUid)
+```
+
+"AlertManagerUID if null use the internal grafana alertmanager"
+
+### fn spec.datasources.jsonData.withAllowInfraExplore
+
+```ts
+withAllowInfraExplore(allowInfraExplore)
+```
+
+
+
+### fn spec.datasources.jsonData.withApiToken
+
+```ts
+withApiToken(apiToken)
+```
+
+
+
+### fn spec.datasources.jsonData.withAppInsightsAppId
+
+```ts
+withAppInsightsAppId(appInsightsAppId)
+```
+
+"Fields for Azure data sources"
+
+### fn spec.datasources.jsonData.withAssumeRoleArn
+
+```ts
+withAssumeRoleArn(assumeRoleArn)
+```
+
+
+
+### fn spec.datasources.jsonData.withAuthType
+
+```ts
+withAuthType(authType)
+```
+
+
+
+### fn spec.datasources.jsonData.withAuthenticationType
+
+```ts
+withAuthenticationType(authenticationType)
+```
+
+
+
+### fn spec.datasources.jsonData.withAzureLogAnalyticsSameAs
+
+```ts
+withAzureLogAnalyticsSameAs(azureLogAnalyticsSameAs)
+```
+
+
+
+### fn spec.datasources.jsonData.withClientEmail
+
+```ts
+withClientEmail(clientEmail)
+```
+
+
+
+### fn spec.datasources.jsonData.withClientId
+
+```ts
+withClientId(clientId)
+```
+
+
+
+### fn spec.datasources.jsonData.withCloudName
+
+```ts
+withCloudName(cloudName)
+```
+
+
+
+### fn spec.datasources.jsonData.withClusterUrl
+
+```ts
+withClusterUrl(clusterUrl)
+```
+
+
+
+### fn spec.datasources.jsonData.withConnMaxLifetime
+
+```ts
+withConnMaxLifetime(connMaxLifetime)
+```
+
+
+
+### fn spec.datasources.jsonData.withCustomMetricsNamespaces
+
+```ts
+withCustomMetricsNamespaces(customMetricsNamespaces)
+```
+
+
+
+### fn spec.datasources.jsonData.withCustomQueryParameters
+
+```ts
+withCustomQueryParameters(customQueryParameters)
+```
+
+"Fields for Prometheus data sources"
+
+### fn spec.datasources.jsonData.withDefaultBucket
+
+```ts
+withDefaultBucket(defaultBucket)
+```
+
+
+
+### fn spec.datasources.jsonData.withDefaultDatabase
+
+```ts
+withDefaultDatabase(defaultDatabase)
+```
+
+
+
+### fn spec.datasources.jsonData.withDefaultProject
+
+```ts
+withDefaultProject(defaultProject)
+```
+
+
+
+### fn spec.datasources.jsonData.withDefaultRegion
+
+```ts
+withDefaultRegion(defaultRegion)
+```
+
+
+
+### fn spec.datasources.jsonData.withDerivedFields
+
+```ts
+withDerivedFields(derivedFields)
+```
+
+
+
+### fn spec.datasources.jsonData.withDerivedFieldsMixin
+
+```ts
+withDerivedFieldsMixin(derivedFields)
+```
+
+
+
+**Note:** This function appends passed data to existing values
+
+### fn spec.datasources.jsonData.withEncrypt
+
+```ts
+withEncrypt(encrypt)
+```
+
+
+
+### fn spec.datasources.jsonData.withEsVersion
+
+```ts
+withEsVersion(esVersion)
+```
+
+
+
+### fn spec.datasources.jsonData.withExemplarTraceIdDestinations
+
+```ts
+withExemplarTraceIdDestinations(exemplarTraceIdDestinations)
+```
+
+
+
+### fn spec.datasources.jsonData.withExemplarTraceIdDestinationsMixin
+
+```ts
+withExemplarTraceIdDestinationsMixin(exemplarTraceIdDestinations)
+```
+
+
+
+**Note:** This function appends passed data to existing values
+
+### fn spec.datasources.jsonData.withGithubUrl
+
+```ts
+withGithubUrl(githubUrl)
+```
+
+"Fields for Github data sources"
+
+### fn spec.datasources.jsonData.withGraphiteVersion
+
+```ts
+withGraphiteVersion(graphiteVersion)
+```
+
+
+
+### fn spec.datasources.jsonData.withHttpHeaderName1
+
+```ts
+withHttpHeaderName1(httpHeaderName1)
+```
+
+"Custom HTTP headers for datasources See https://grafana.com/docs/grafana/latest/administration/provisioning/#datasources"
+
+### fn spec.datasources.jsonData.withHttpHeaderName2
+
+```ts
+withHttpHeaderName2(httpHeaderName2)
+```
+
+
+
+### fn spec.datasources.jsonData.withHttpHeaderName3
+
+```ts
+withHttpHeaderName3(httpHeaderName3)
+```
+
+
+
+### fn spec.datasources.jsonData.withHttpHeaderName4
+
+```ts
+withHttpHeaderName4(httpHeaderName4)
+```
+
+
+
+### fn spec.datasources.jsonData.withHttpHeaderName5
+
+```ts
+withHttpHeaderName5(httpHeaderName5)
+```
+
+
+
+### fn spec.datasources.jsonData.withHttpHeaderName6
+
+```ts
+withHttpHeaderName6(httpHeaderName6)
+```
+
+
+
+### fn spec.datasources.jsonData.withHttpHeaderName7
+
+```ts
+withHttpHeaderName7(httpHeaderName7)
+```
+
+
+
+### fn spec.datasources.jsonData.withHttpHeaderName8
+
+```ts
+withHttpHeaderName8(httpHeaderName8)
+```
+
+
+
+### fn spec.datasources.jsonData.withHttpHeaderName9
+
+```ts
+withHttpHeaderName9(httpHeaderName9)
+```
+
+
+
+### fn spec.datasources.jsonData.withHttpMethod
+
+```ts
+withHttpMethod(httpMethod)
+```
+
+
+
+### fn spec.datasources.jsonData.withHttpMode
+
+```ts
+withHttpMode(httpMode)
+```
+
+"Fields for InfluxDB data sources"
+
+### fn spec.datasources.jsonData.withImplementation
+
+```ts
+withImplementation(implementation)
+```
+
+"Fields for Alertmanager data sources"
+
+### fn spec.datasources.jsonData.withInterval
+
+```ts
+withInterval(interval)
+```
+
+
+
+### fn spec.datasources.jsonData.withLogAnalyticsClientId
+
+```ts
+withLogAnalyticsClientId(logAnalyticsClientId)
+```
+
+
+
+### fn spec.datasources.jsonData.withLogAnalyticsDefaultWorkspace
+
+```ts
+withLogAnalyticsDefaultWorkspace(logAnalyticsDefaultWorkspace)
+```
+
+
+
+### fn spec.datasources.jsonData.withLogAnalyticsSubscriptionId
+
+```ts
+withLogAnalyticsSubscriptionId(logAnalyticsSubscriptionId)
+```
+
+
+
+### fn spec.datasources.jsonData.withLogAnalyticsTenantId
+
+```ts
+withLogAnalyticsTenantId(logAnalyticsTenantId)
+```
+
+
+
+### fn spec.datasources.jsonData.withLogLevelField
+
+```ts
+withLogLevelField(logLevelField)
+```
+
+
+
+### fn spec.datasources.jsonData.withLogMessageField
+
+```ts
+withLogMessageField(logMessageField)
+```
+
+
+
+### fn spec.datasources.jsonData.withManageAlerts
+
+```ts
+withManageAlerts(manageAlerts)
+```
+
+"ManageAlerts turns on alert management from UI"
+
+### fn spec.datasources.jsonData.withMaxIdleConns
+
+```ts
+withMaxIdleConns(maxIdleConns)
+```
+
+
+
+### fn spec.datasources.jsonData.withMaxLines
+
+```ts
+withMaxLines(maxLines)
+```
+
+"Fields for Loki data sources"
+
+### fn spec.datasources.jsonData.withMaxOpenConns
+
+```ts
+withMaxOpenConns(maxOpenConns)
+```
+
+
+
+### fn spec.datasources.jsonData.withOauthPassThru
+
+```ts
+withOauthPassThru(oauthPassThru)
+```
+
+
+
+### fn spec.datasources.jsonData.withOrganization
+
+```ts
+withOrganization(organization)
+```
+
+
+
+### fn spec.datasources.jsonData.withPort
+
+```ts
+withPort(port)
+```
+
+
+
+### fn spec.datasources.jsonData.withPostgresVersion
+
+```ts
+withPostgresVersion(postgresVersion)
+```
+
+
+
+### fn spec.datasources.jsonData.withServer
+
+```ts
+withServer(server)
+```
+
+"Fields for Grafana Clickhouse data sources"
+
+### fn spec.datasources.jsonData.withShowOffline
+
+```ts
+withShowOffline(showOffline)
+```
+
+
+
+### fn spec.datasources.jsonData.withSigV4AssumeRoleArn
+
+```ts
+withSigV4AssumeRoleArn(sigV4AssumeRoleArn)
+```
+
+
+
+### fn spec.datasources.jsonData.withSigV4Auth
+
+```ts
+withSigV4Auth(sigV4Auth)
+```
+
+"Fields for AWS Prometheus data sources"
+
+### fn spec.datasources.jsonData.withSigV4AuthType
+
+```ts
+withSigV4AuthType(sigV4AuthType)
+```
+
+
+
+### fn spec.datasources.jsonData.withSigV4ExternalId
+
+```ts
+withSigV4ExternalId(sigV4ExternalId)
+```
+
+
+
+### fn spec.datasources.jsonData.withSigV4Profile
+
+```ts
+withSigV4Profile(sigV4Profile)
+```
+
+
+
+### fn spec.datasources.jsonData.withSigV4Region
+
+```ts
+withSigV4Region(sigV4Region)
+```
+
+
+
+### fn spec.datasources.jsonData.withSslmode
+
+```ts
+withSslmode(sslmode)
+```
+
+
+
+### fn spec.datasources.jsonData.withSubscriptionId
+
+```ts
+withSubscriptionId(subscriptionId)
+```
+
+
+
+### fn spec.datasources.jsonData.withTenantId
+
+```ts
+withTenantId(tenantId)
+```
+
+
+
+### fn spec.datasources.jsonData.withTimeField
+
+```ts
+withTimeField(timeField)
+```
+
+
+
+### fn spec.datasources.jsonData.withTimeInterval
+
+```ts
+withTimeInterval(timeInterval)
+```
+
+
+
+### fn spec.datasources.jsonData.withTimescaledb
+
+```ts
+withTimescaledb(timescaledb)
+```
+
+
+
+### fn spec.datasources.jsonData.withTimezone
+
+```ts
+withTimezone(timezone)
+```
+
+"Extra field for MySQL data source"
+
+### fn spec.datasources.jsonData.withTlsAuth
+
+```ts
+withTlsAuth(tlsAuth)
+```
+
+
+
+### fn spec.datasources.jsonData.withTlsAuthWithCACert
+
+```ts
+withTlsAuthWithCACert(tlsAuthWithCACert)
+```
+
+
+
+### fn spec.datasources.jsonData.withTlsSkipVerify
+
+```ts
+withTlsSkipVerify(tlsSkipVerify)
+```
+
+
+
+### fn spec.datasources.jsonData.withTokenUri
+
+```ts
+withTokenUri(tokenUri)
+```
+
+"Fields for Stackdriver data sources"
+
+### fn spec.datasources.jsonData.withTsdbResolution
+
+```ts
+withTsdbResolution(tsdbResolution)
+```
+
+
+
+### fn spec.datasources.jsonData.withTsdbVersion
+
+```ts
+withTsdbVersion(tsdbVersion)
+```
+
+
+
+### fn spec.datasources.jsonData.withUrl
+
+```ts
+withUrl(url)
+```
+
+"Fields for Instana data sources See https://github.com/instana/instana-grafana-datasource/blob/main/provisioning/datasources/datasource.yml"
+
+### fn spec.datasources.jsonData.withUsePOST
+
+```ts
+withUsePOST(usePOST)
+```
+
+
+
+### fn spec.datasources.jsonData.withUseProxy
+
+```ts
+withUseProxy(useProxy)
+```
+
+
+
+### fn spec.datasources.jsonData.withUseYandexCloudAuthorization
+
+```ts
+withUseYandexCloudAuthorization(useYandexCloudAuthorization)
+```
+
+
+
+### fn spec.datasources.jsonData.withUsername
+
+```ts
+withUsername(username)
+```
+
+
+
+### fn spec.datasources.jsonData.withVersion
+
+```ts
+withVersion(version)
+```
+
+
+
+### fn spec.datasources.jsonData.withXHeaderKey
+
+```ts
+withXHeaderKey(xHeaderKey)
+```
+
+
+
+### fn spec.datasources.jsonData.withXHeaderUser
+
+```ts
+withXHeaderUser(xHeaderUser)
+```
+
+
+
+## obj spec.datasources.jsonData.derivedFields
+
+
+
+### fn spec.datasources.jsonData.derivedFields.withDatasourceUid
+
+```ts
+withDatasourceUid(datasourceUid)
+```
+
+
+
+### fn spec.datasources.jsonData.derivedFields.withMatcherRegex
+
+```ts
+withMatcherRegex(matcherRegex)
+```
+
+
+
+### fn spec.datasources.jsonData.derivedFields.withName
+
+```ts
+withName(name)
+```
+
+
+
+### fn spec.datasources.jsonData.derivedFields.withUrl
+
+```ts
+withUrl(url)
+```
+
+
+
+## obj spec.datasources.jsonData.exemplarTraceIdDestinations
+
+
+
+### fn spec.datasources.jsonData.exemplarTraceIdDestinations.withDatasourceUid
+
+```ts
+withDatasourceUid(datasourceUid)
+```
+
+
+
+### fn spec.datasources.jsonData.exemplarTraceIdDestinations.withName
+
+```ts
+withName(name)
+```
+
+
+
+### fn spec.datasources.jsonData.exemplarTraceIdDestinations.withUrl
+
+```ts
+withUrl(url)
+```
+
+
+
+### fn spec.datasources.jsonData.exemplarTraceIdDestinations.withUrlDisplayLabel
+
+```ts
+withUrlDisplayLabel(urlDisplayLabel)
+```
+
+
+
+## obj spec.datasources.jsonData.nodeGraph
+
+
+
+### fn spec.datasources.jsonData.nodeGraph.withEnabled
+
+```ts
+withEnabled(enabled)
+```
+
+
+
+## obj spec.datasources.jsonData.search
+
+
+
+### fn spec.datasources.jsonData.search.withHide
+
+```ts
+withHide(hide)
+```
+
+
+
+## obj spec.datasources.jsonData.serviceMap
+
+
+
+### fn spec.datasources.jsonData.serviceMap.withDatasourceUid
+
+```ts
+withDatasourceUid(datasourceUid)
+```
+
+
+
+## obj spec.datasources.jsonData.tracesToLogs
+
+"Fields for tracing data sources"
+
+### fn spec.datasources.jsonData.tracesToLogs.withDatasourceUid
+
+```ts
+withDatasourceUid(datasourceUid)
+```
+
+
+
+### fn spec.datasources.jsonData.tracesToLogs.withFilterBySpanID
+
+```ts
+withFilterBySpanID(filterBySpanID)
+```
+
+
+
+### fn spec.datasources.jsonData.tracesToLogs.withFilterByTraceID
+
+```ts
+withFilterByTraceID(filterByTraceID)
+```
+
+
+
+### fn spec.datasources.jsonData.tracesToLogs.withLokiSearch
+
+```ts
+withLokiSearch(lokiSearch)
+```
+
+
+
+### fn spec.datasources.jsonData.tracesToLogs.withSpanEndTimeShift
+
+```ts
+withSpanEndTimeShift(spanEndTimeShift)
+```
+
+
+
+### fn spec.datasources.jsonData.tracesToLogs.withSpanStartTimeShift
+
+```ts
+withSpanStartTimeShift(spanStartTimeShift)
+```
+
+
+
+### fn spec.datasources.jsonData.tracesToLogs.withTags
+
+```ts
+withTags(tags)
+```
+
+
+
+### fn spec.datasources.jsonData.tracesToLogs.withTagsMixin
+
+```ts
+withTagsMixin(tags)
+```
+
+
+
+**Note:** This function appends passed data to existing values
+
+## obj spec.datasources.secureJsonData
+
+"GrafanaDataSourceSecureJsonData contains the most common secure json options See https://grafana.com/docs/administration/provisioning/#datasources"
+
+### fn spec.datasources.secureJsonData.withAccessKey
+
+```ts
+withAccessKey(accessKey)
+```
+
+
+
+### fn spec.datasources.secureJsonData.withAccessToken
+
+```ts
+withAccessToken(accessToken)
+```
+
+"Fields for Github data sources"
+
+### fn spec.datasources.secureJsonData.withAppInsightsApiKey
+
+```ts
+withAppInsightsApiKey(appInsightsApiKey)
+```
+
+
+
+### fn spec.datasources.secureJsonData.withBasicAuthPassword
+
+```ts
+withBasicAuthPassword(basicAuthPassword)
+```
+
+
+
+### fn spec.datasources.secureJsonData.withClientSecret
+
+```ts
+withClientSecret(clientSecret)
+```
+
+"Fields for Azure data sources"
+
+### fn spec.datasources.secureJsonData.withHttpHeaderValue1
+
+```ts
+withHttpHeaderValue1(httpHeaderValue1)
+```
+
+"Custom HTTP headers for datasources See https://grafana.com/docs/grafana/latest/administration/provisioning/#datasources"
+
+### fn spec.datasources.secureJsonData.withHttpHeaderValue2
+
+```ts
+withHttpHeaderValue2(httpHeaderValue2)
+```
+
+
+
+### fn spec.datasources.secureJsonData.withHttpHeaderValue3
+
+```ts
+withHttpHeaderValue3(httpHeaderValue3)
+```
+
+
+
+### fn spec.datasources.secureJsonData.withHttpHeaderValue4
+
+```ts
+withHttpHeaderValue4(httpHeaderValue4)
+```
+
+
+
+### fn spec.datasources.secureJsonData.withHttpHeaderValue5
+
+```ts
+withHttpHeaderValue5(httpHeaderValue5)
+```
+
+
+
+### fn spec.datasources.secureJsonData.withHttpHeaderValue6
+
+```ts
+withHttpHeaderValue6(httpHeaderValue6)
+```
+
+
+
+### fn spec.datasources.secureJsonData.withHttpHeaderValue7
+
+```ts
+withHttpHeaderValue7(httpHeaderValue7)
+```
+
+
+
+### fn spec.datasources.secureJsonData.withHttpHeaderValue8
+
+```ts
+withHttpHeaderValue8(httpHeaderValue8)
+```
+
+
+
+### fn spec.datasources.secureJsonData.withHttpHeaderValue9
+
+```ts
+withHttpHeaderValue9(httpHeaderValue9)
+```
+
+
+
+### fn spec.datasources.secureJsonData.withLogAnalyticsClientSecret
+
+```ts
+withLogAnalyticsClientSecret(logAnalyticsClientSecret)
+```
+
+
+
+### fn spec.datasources.secureJsonData.withPassword
+
+```ts
+withPassword(password)
+```
+
+
+
+### fn spec.datasources.secureJsonData.withPrivateKey
+
+```ts
+withPrivateKey(privateKey)
+```
+
+"Fields for Stackdriver data sources"
+
+### fn spec.datasources.secureJsonData.withSecretKey
+
+```ts
+withSecretKey(secretKey)
+```
+
+
+
+### fn spec.datasources.secureJsonData.withSigV4AccessKey
+
+```ts
+withSigV4AccessKey(sigV4AccessKey)
+```
+
+"Fields for AWS data sources"
+
+### fn spec.datasources.secureJsonData.withSigV4SecretKey
+
+```ts
+withSigV4SecretKey(sigV4SecretKey)
+```
+
+
+
+### fn spec.datasources.secureJsonData.withTlsCACert
+
+```ts
+withTlsCACert(tlsCACert)
+```
+
+
+
+### fn spec.datasources.secureJsonData.withTlsClientCert
+
+```ts
+withTlsClientCert(tlsClientCert)
+```
+
+
+
+### fn spec.datasources.secureJsonData.withTlsClientKey
+
+```ts
+withTlsClientKey(tlsClientKey)
+```
+
+
+
+### fn spec.datasources.secureJsonData.withToken
+
+```ts
+withToken(token)
+```
+
+"Fields for InfluxDB data sources"

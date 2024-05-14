@@ -1,5 +1,5 @@
 ---
-permalink: /5.6/grafana/v1beta1/grafana/
+permalink: /5.8/grafana/v1beta1/grafana/
 ---
 
 # grafana.v1beta1.grafana

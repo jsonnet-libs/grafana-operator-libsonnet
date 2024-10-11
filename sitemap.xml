@@ -2,592 +2,702 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/4.1/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/4.1/integreatly/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/4.1/integreatly/v1alpha1/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/4.1/integreatly/v1alpha1/grafana/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/4.1/integreatly/v1alpha1/grafanaDashboard/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/4.1/integreatly/v1alpha1/grafanaDataSource/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/4.1/integreatly/v1alpha1/grafanaNotificationChannel/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/4.10/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/4.10/integreatly/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/4.10/integreatly/v1alpha1/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/4.10/integreatly/v1alpha1/grafana/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/4.10/integreatly/v1alpha1/grafanaDashboard/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/4.10/integreatly/v1alpha1/grafanaDataSource/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/4.10/integreatly/v1alpha1/grafanaFolder/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/4.10/integreatly/v1alpha1/grafanaNotificationChannel/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/4.2/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/4.2/integreatly/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/4.2/integreatly/v1alpha1/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/4.2/integreatly/v1alpha1/grafana/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/4.2/integreatly/v1alpha1/grafanaDashboard/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/4.2/integreatly/v1alpha1/grafanaDataSource/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/4.2/integreatly/v1alpha1/grafanaNotificationChannel/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/4.3/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/4.3/integreatly/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/4.3/integreatly/v1alpha1/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/4.3/integreatly/v1alpha1/grafana/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/4.3/integreatly/v1alpha1/grafanaDashboard/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/4.3/integreatly/v1alpha1/grafanaDataSource/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/4.3/integreatly/v1alpha1/grafanaNotificationChannel/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/4.4/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/4.4/integreatly/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/4.4/integreatly/v1alpha1/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/4.4/integreatly/v1alpha1/grafana/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/4.4/integreatly/v1alpha1/grafanaDashboard/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/4.4/integreatly/v1alpha1/grafanaDataSource/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/4.4/integreatly/v1alpha1/grafanaNotificationChannel/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/4.5/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/4.5/integreatly/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/4.5/integreatly/v1alpha1/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/4.5/integreatly/v1alpha1/grafana/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/4.5/integreatly/v1alpha1/grafanaDashboard/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/4.5/integreatly/v1alpha1/grafanaDataSource/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/4.5/integreatly/v1alpha1/grafanaNotificationChannel/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/4.6/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/4.6/integreatly/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/4.6/integreatly/v1alpha1/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/4.6/integreatly/v1alpha1/grafana/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/4.6/integreatly/v1alpha1/grafanaDashboard/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/4.6/integreatly/v1alpha1/grafanaDataSource/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/4.6/integreatly/v1alpha1/grafanaNotificationChannel/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/4.7/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/4.7/integreatly/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/4.7/integreatly/v1alpha1/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/4.7/integreatly/v1alpha1/grafana/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/4.7/integreatly/v1alpha1/grafanaDashboard/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/4.7/integreatly/v1alpha1/grafanaDataSource/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/4.7/integreatly/v1alpha1/grafanaFolder/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/4.7/integreatly/v1alpha1/grafanaNotificationChannel/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/4.8/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/4.8/integreatly/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/4.8/integreatly/v1alpha1/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/4.8/integreatly/v1alpha1/grafana/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/4.8/integreatly/v1alpha1/grafanaDashboard/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/4.8/integreatly/v1alpha1/grafanaDataSource/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/4.8/integreatly/v1alpha1/grafanaFolder/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/4.8/integreatly/v1alpha1/grafanaNotificationChannel/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/4.9/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/4.9/integreatly/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/4.9/integreatly/v1alpha1/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/4.9/integreatly/v1alpha1/grafana/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/4.9/integreatly/v1alpha1/grafanaDashboard/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/4.9/integreatly/v1alpha1/grafanaDataSource/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/4.9/integreatly/v1alpha1/grafanaFolder/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/4.9/integreatly/v1alpha1/grafanaNotificationChannel/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/5.0/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/5.0/grafana/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/5.0/grafana/v1beta1/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/5.0/grafana/v1beta1/grafana/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/5.0/grafana/v1beta1/grafanaDashboard/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/5.0/grafana/v1beta1/grafanaDatasource/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/5.0/grafana/v1beta1/grafanaFolder/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/5.10/</loc>
+         <lastmod>2024-10-11</lastmod>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/5.10/grafana/</loc>
+         <lastmod>2024-10-11</lastmod>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/5.10/grafana/v1beta1/</loc>
+         <lastmod>2024-10-11</lastmod>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/5.10/grafana/v1beta1/grafana/</loc>
+         <lastmod>2024-10-11</lastmod>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/5.10/grafana/v1beta1/grafanaAlertRuleGroup/</loc>
+         <lastmod>2024-10-11</lastmod>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/5.10/grafana/v1beta1/grafanaContactPoint/</loc>
+         <lastmod>2024-10-11</lastmod>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/5.10/grafana/v1beta1/grafanaDashboard/</loc>
+         <lastmod>2024-10-11</lastmod>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/5.10/grafana/v1beta1/grafanaDatasource/</loc>
+         <lastmod>2024-10-11</lastmod>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/5.10/grafana/v1beta1/grafanaFolder/</loc>
+         <lastmod>2024-10-11</lastmod>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/5.11/</loc>
+         <lastmod>2024-10-11</lastmod>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/5.11/grafana/</loc>
+         <lastmod>2024-10-11</lastmod>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/5.11/grafana/v1beta1/</loc>
+         <lastmod>2024-10-11</lastmod>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/5.11/grafana/v1beta1/grafana/</loc>
+         <lastmod>2024-10-11</lastmod>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/5.11/grafana/v1beta1/grafanaAlertRuleGroup/</loc>
+         <lastmod>2024-10-11</lastmod>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/5.11/grafana/v1beta1/grafanaContactPoint/</loc>
+         <lastmod>2024-10-11</lastmod>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/5.11/grafana/v1beta1/grafanaDashboard/</loc>
+         <lastmod>2024-10-11</lastmod>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/5.11/grafana/v1beta1/grafanaDatasource/</loc>
+         <lastmod>2024-10-11</lastmod>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/5.11/grafana/v1beta1/grafanaFolder/</loc>
+         <lastmod>2024-10-11</lastmod>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/5.12/</loc>
+         <lastmod>2024-10-11</lastmod>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/5.12/grafana/</loc>
+         <lastmod>2024-10-11</lastmod>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/5.12/grafana/v1beta1/</loc>
+         <lastmod>2024-10-11</lastmod>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/5.12/grafana/v1beta1/grafana/</loc>
+         <lastmod>2024-10-11</lastmod>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/5.12/grafana/v1beta1/grafanaAlertRuleGroup/</loc>
+         <lastmod>2024-10-11</lastmod>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/5.12/grafana/v1beta1/grafanaContactPoint/</loc>
+         <lastmod>2024-10-11</lastmod>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/5.12/grafana/v1beta1/grafanaDashboard/</loc>
+         <lastmod>2024-10-11</lastmod>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/5.12/grafana/v1beta1/grafanaDatasource/</loc>
+         <lastmod>2024-10-11</lastmod>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/5.12/grafana/v1beta1/grafanaFolder/</loc>
+         <lastmod>2024-10-11</lastmod>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/5.12/grafana/v1beta1/grafanaNotificationPolicy/</loc>
+         <lastmod>2024-10-11</lastmod>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/5.13/</loc>
+         <lastmod>2024-10-11</lastmod>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/5.13/grafana/</loc>
+         <lastmod>2024-10-11</lastmod>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/5.13/grafana/v1beta1/</loc>
+         <lastmod>2024-10-11</lastmod>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/5.13/grafana/v1beta1/grafana/</loc>
+         <lastmod>2024-10-11</lastmod>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/5.13/grafana/v1beta1/grafanaAlertRuleGroup/</loc>
+         <lastmod>2024-10-11</lastmod>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/5.13/grafana/v1beta1/grafanaContactPoint/</loc>
+         <lastmod>2024-10-11</lastmod>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/5.13/grafana/v1beta1/grafanaDashboard/</loc>
+         <lastmod>2024-10-11</lastmod>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/5.13/grafana/v1beta1/grafanaDatasource/</loc>
+         <lastmod>2024-10-11</lastmod>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/5.13/grafana/v1beta1/grafanaFolder/</loc>
+         <lastmod>2024-10-11</lastmod>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/5.13/grafana/v1beta1/grafanaNotificationPolicy/</loc>
+         <lastmod>2024-10-11</lastmod>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/5.14/</loc>
+         <lastmod>2024-10-11</lastmod>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/5.14/grafana/</loc>
+         <lastmod>2024-10-11</lastmod>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/5.14/grafana/v1beta1/</loc>
+         <lastmod>2024-10-11</lastmod>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/5.14/grafana/v1beta1/grafana/</loc>
+         <lastmod>2024-10-11</lastmod>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/5.14/grafana/v1beta1/grafanaAlertRuleGroup/</loc>
+         <lastmod>2024-10-11</lastmod>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/5.14/grafana/v1beta1/grafanaContactPoint/</loc>
+         <lastmod>2024-10-11</lastmod>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/5.14/grafana/v1beta1/grafanaDashboard/</loc>
+         <lastmod>2024-10-11</lastmod>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/5.14/grafana/v1beta1/grafanaDatasource/</loc>
+         <lastmod>2024-10-11</lastmod>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/5.14/grafana/v1beta1/grafanaFolder/</loc>
+         <lastmod>2024-10-11</lastmod>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/5.14/grafana/v1beta1/grafanaNotificationPolicy/</loc>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/5.4/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/5.4/grafana/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/5.4/grafana/v1beta1/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/5.4/grafana/v1beta1/grafana/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/5.4/grafana/v1beta1/grafanaDashboard/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/5.4/grafana/v1beta1/grafanaDatasource/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/5.4/grafana/v1beta1/grafanaFolder/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/5.5/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/5.5/grafana/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/5.5/grafana/v1beta1/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/5.5/grafana/v1beta1/grafana/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/5.5/grafana/v1beta1/grafanaDashboard/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/5.5/grafana/v1beta1/grafanaDatasource/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/5.5/grafana/v1beta1/grafanaFolder/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/5.6/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/5.6/grafana/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/5.6/grafana/v1beta1/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/5.6/grafana/v1beta1/grafana/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/5.6/grafana/v1beta1/grafanaDashboard/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/5.6/grafana/v1beta1/grafanaDatasource/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/5.6/grafana/v1beta1/grafanaFolder/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/5.7/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/5.7/grafana/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/5.7/grafana/v1beta1/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/5.7/grafana/v1beta1/grafana/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/5.7/grafana/v1beta1/grafanaDashboard/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/5.7/grafana/v1beta1/grafanaDatasource/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/5.7/grafana/v1beta1/grafanaFolder/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/5.8/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/5.8/grafana/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/5.8/grafana/v1beta1/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/5.8/grafana/v1beta1/grafana/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/5.8/grafana/v1beta1/grafanaAlertRuleGroup/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/5.8/grafana/v1beta1/grafanaDashboard/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/5.8/grafana/v1beta1/grafanaDatasource/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/5.8/grafana/v1beta1/grafanaFolder/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-11</lastmod>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/5.9/</loc>
+         <lastmod>2024-10-11</lastmod>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/5.9/grafana/</loc>
+         <lastmod>2024-10-11</lastmod>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/5.9/grafana/v1beta1/</loc>
+         <lastmod>2024-10-11</lastmod>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/5.9/grafana/v1beta1/grafana/</loc>
+         <lastmod>2024-10-11</lastmod>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/5.9/grafana/v1beta1/grafanaAlertRuleGroup/</loc>
+         <lastmod>2024-10-11</lastmod>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/5.9/grafana/v1beta1/grafanaContactPoint/</loc>
+         <lastmod>2024-10-11</lastmod>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/5.9/grafana/v1beta1/grafanaDashboard/</loc>
+         <lastmod>2024-10-11</lastmod>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/5.9/grafana/v1beta1/grafanaDatasource/</loc>
+         <lastmod>2024-10-11</lastmod>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/grafana-operator-libsonnet/5.9/grafana/v1beta1/grafanaFolder/</loc>
+         <lastmod>2024-10-11</lastmod>
     </url>
 </urlset>

@@ -24,3 +24,4 @@ This library is generated with [`k8s`](https://github.com/jsonnet-libs/k8s).
 - [5.12](5.12/README.md)
 - [5.13](5.13/README.md)
 - [5.14](5.14/README.md)
+- [5.15](5.15/README.md)
